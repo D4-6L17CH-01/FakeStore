@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "WG8nIwCXvWE=",
   "success": true,
   "projectFilePath": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\FakeStoreWebApp.csproj",
+=======
+  "dgSpecHash": "UaB7pCvHBdA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\FakeStoreWebApp.csproj",
+>>>>>>> 82ddbe963cd494aca16a8ed4c3fc60d08d39da7c
   "expectedPackageFiles": [],
   "logs": []
 }
