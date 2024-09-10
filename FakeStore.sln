@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStoreWebApp", "FakeStoreWebApp\FakeStoreWebApp.csproj", "{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStoreWebApp", "FakeStoreWebApp\FakeStoreWebApp.csproj", "{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{EB442485-053D-46D2-A9D2-884D452D8B36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{EB442485-053D-46D2-A9D2-884D452D8B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{03B31086-55EF-46F9-B1FB-160545E799DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EB442485-053D-46D2-A9D2-884D452D8B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB442485-053D-46D2-A9D2-884D452D8B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB442485-053D-46D2-A9D2-884D452D8B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B31086-55EF-46F9-B1FB-160545E799DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B31086-55EF-46F9-B1FB-160545E799DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B31086-55EF-46F9-B1FB-160545E799DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B31086-55EF-46F9-B1FB-160545E799DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

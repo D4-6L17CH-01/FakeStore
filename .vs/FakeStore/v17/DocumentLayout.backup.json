@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\dev\\projects\\FakeStore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\dev\\projects\\fakestore\\model\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\dev\\projects\\FakeStore\\Model\\Rating.cs",
+              "RelativeDocumentMoniker": "Model\\Rating.cs",
+              "ToolTip": "C:\\dev\\projects\\FakeStore\\Model\\Rating.cs",
+              "RelativeToolTip": "Model\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:08:44.874Z",
+              "EditorCaption": ""
             }
           ]
         }
