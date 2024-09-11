@@ -4,3 +4,6 @@ global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
 global using Model;
+global using Common.Contracts;
+global using Common.Rest;
+global using Common.Tools;
