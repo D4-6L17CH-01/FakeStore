@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\fakestorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\fakestorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -50,11 +61,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T02:23:48.217Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FakeStoreWebApp",
+              "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "RelativeToolTip": "FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T02:23:31.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAzwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-11T02:23:20.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Host.cshtml",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Pages\\_Host.cshtml",
@@ -67,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Shared\\MainLayout.razor",
@@ -80,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\Components\\NavMenu.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Components\\NavMenu.razor",
@@ -93,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\App.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\App.razor",
               "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\App.razor",
               "RelativeToolTip": "FakeStoreWebApp\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-11T01:43:53.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\Program.cs",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Program.cs",
@@ -119,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "RestLogin.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Rest\\RestLogin.cs",
               "RelativeDocumentMoniker": "Common\\Rest\\RestLogin.cs",
@@ -132,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ILogin.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Contracts\\ILogin.cs",
               "RelativeDocumentMoniker": "Common\\Contracts\\ILogin.cs",
@@ -145,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ICart.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Contracts\\ICart.cs",
               "RelativeDocumentMoniker": "Common\\Contracts\\ICart.cs",
@@ -157,12 +211,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "RestCart.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Rest\\RestCart.cs",
               "RelativeDocumentMoniker": "Common\\Rest\\RestCart.cs",
@@ -175,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Constantes.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Tools\\Constantes.cs",
               "RelativeDocumentMoniker": "Common\\Tools\\Constantes.cs",

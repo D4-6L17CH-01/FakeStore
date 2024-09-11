@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStoreWebApp", "FakeStoreWebApp\FakeStoreWebApp.csproj", "{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03B31086-55EF-46F9-B1FB-160545E799DC} = {03B31086-55EF-46F9-B1FB-160545E799DC}
+		{EB442485-053D-46D2-A9D2-884D452D8B36} = {EB442485-053D-46D2-A9D2-884D452D8B36}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{EB442485-053D-46D2-A9D2-884D452D8B36}"
 EndProject
