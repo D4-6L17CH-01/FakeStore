@@ -1,18 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\",
+  "WorkspaceRootPath": "C:\\Users\\dylan\\source\\repos\\FakeStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\common\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|solutionrelative:common\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\common\\tools\\httphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|solutionrelative:common\\tools\\httphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\common\\rest\\restcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|solutionrelative:common\\rest\\restcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\common\\tools\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B31086-55EF-46F9-B1FB-160545E799DC}|Common\\Common.csproj|solutionrelative:common\\tools\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\geolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\geolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|solutionrelative:model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\fakestorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\fakestorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\basics\\herramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\basics\\herramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\basics\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\basics\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +62,179 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HttpHelper.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Common\\Tools\\HttpHelper.cs",
+              "RelativeDocumentMoniker": "Common\\Tools\\HttpHelper.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Common\\Tools\\HttpHelper.cs",
+              "RelativeToolTip": "Common\\Tools\\HttpHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:58:14.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:57:58.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:57:48.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Name.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Name.cs",
+              "RelativeDocumentMoniker": "Model\\Name.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Name.cs",
+              "RelativeToolTip": "Model\\Name.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:57:43.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "Model\\Category.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Category.cs",
+              "RelativeToolTip": "Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:57:41.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Cart.cs",
+              "RelativeDocumentMoniker": "Model\\Cart.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Cart.cs",
+              "RelativeToolTip": "Model\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:57:34.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Geolocation.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Geolocation.cs",
+              "RelativeDocumentMoniker": "Model\\Geolocation.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Geolocation.cs",
+              "RelativeToolTip": "Model\\Geolocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:56:39.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "FakeStoreWebApp\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:48:37.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Address.cs",
+              "RelativeDocumentMoniker": "Model\\Address.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\Model\\Address.cs",
+              "RelativeToolTip": "Model\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:56:19.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Herramientas.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Basics\\Herramientas.cs",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\Basics\\Herramientas.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Basics\\Herramientas.cs",
+              "RelativeToolTip": "FakeStoreWebApp\\Basics\\Herramientas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:31:30.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Constantes.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Basics\\Constantes.cs",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\Basics\\Constantes.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Basics\\Constantes.cs",
+              "RelativeToolTip": "FakeStoreWebApp\\Basics\\Constantes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:30:29.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FakeStoreWebApp",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "RelativeToolTip": "FakeStoreWebApp\\FakeStoreWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T01:27:50.4Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usings.cs",
-              "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Usings.cs",
-              "RelativeDocumentMoniker": "Common\\Usings.cs",
-              "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Usings.cs",
-              "RelativeToolTip": "Common\\Usings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "FakeStoreWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Program.cs",
+              "RelativeToolTip": "FakeStoreWebApp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:52:48.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestCart.cs",
-              "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Rest\\RestCart.cs",
-              "RelativeDocumentMoniker": "Common\\Rest\\RestCart.cs",
-              "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Rest\\RestCart.cs",
-              "RelativeToolTip": "Common\\Rest\\RestCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:47:21.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Constantes.cs",
-              "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Tools\\Constantes.cs",
-              "RelativeDocumentMoniker": "Common\\Tools\\Constantes.cs",
-              "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\Common\\Tools\\Constantes.cs",
-              "RelativeToolTip": "Common\\Tools\\Constantes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:43:40.904Z",
+              "WhenOpened": "2024-09-11T01:26:33.724Z",
               "EditorCaption": ""
             }
           ]
