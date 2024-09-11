@@ -41,7 +41,7 @@ public class HttpHelper
                 if (typeof(TResult).Equals(typeof(string)))
                     obj = json;
                 else
-                    obj = JsonConvert.DeserializeObject<TResult>(json);
+                    obj = JsonConvert.DeserializeObject<TResult>(json)!;
                 return obj;
             }
             else
@@ -66,7 +66,7 @@ public class HttpHelper
                 if (typeof(TResult).Equals(typeof(string)))
                     obj = json;
                 else
-                    obj = JsonConvert.DeserializeObject<TResult>(json);
+                    obj = JsonConvert.DeserializeObject<TResult>(json)!;
                 return obj;
             }
             else
@@ -91,7 +91,7 @@ public class HttpHelper
                 if (typeof(TResult).Equals(typeof(string)))
                     obj = json;
                 else
-                    obj = JsonConvert.DeserializeObject<TResult>(json);
+                    obj = JsonConvert.DeserializeObject<TResult>(json)!;
                 return obj;
             }
             else
@@ -115,13 +115,13 @@ public class HttpHelper
                 if (typeof(TResult).Equals(typeof(string)))
                     obj = json;
                 else
-                    obj = JsonConvert.DeserializeObject<TResult>(json);
+                    obj = JsonConvert.DeserializeObject<TResult>(json)!;
                 return obj;
             }
             else
             {
                 await ThrowError(response);
-                return default;
+                return default!;
             }
         }
     }
@@ -160,7 +160,7 @@ public class HttpHelper
         {
             try
             {
-                requesterror = JsonConvert.DeserializeObject<RequestError>(content);
+                requesterror = JsonConvert.DeserializeObject<RequestError>(content)!;
             }
             catch
             {
@@ -172,7 +172,7 @@ public class HttpHelper
         // intentar extraer el mensaje del error
         try
         {
-            error = JsonConvert.DeserializeObject<Exception>(content);
+            error = JsonConvert.DeserializeObject<Exception>(content)!;
         }
         catch { }
 
