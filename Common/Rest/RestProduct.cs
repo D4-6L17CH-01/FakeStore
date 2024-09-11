@@ -1,38 +1,22 @@
-﻿using Common.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Common.Rest;
+﻿namespace Common.Rest;
 
 public class RestProduct : IProducts
 {
-    private readonly HttpHelper;
-    public RestProduct()
+    private readonly HttpHelper http;
+    public RestProduct(string baseurl, string token)
     {
-                
+        http = new HttpHelper(baseurl, token);
     }
-    public Task<ICollection<Product>> GetAllAsync()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<ICollection<Product>> GetAllAsync()
+        => await http.GetAsync<ICollection<Product>>("products");
 
-    public Task<Product> GetAsync()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<Product> GetAsync(int id)
+        => await http.GetAsync<Product>($"products/{id}");
 
-    public Task<Product> InsertAsync(Product producto)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<Product> UpdateAsync(int id, Product producto)
-    {
-        throw new NotImplementedException();
-    }
-    public Task<bool> DeleteAsync(int id)
-        => 
+    public async Task<Product> InsertAsync(Product producto)
+        => await http.PostAsync<Product, Product>($"products", producto);
+    public async Task<Product> UpdateAsync(int id, Product producto)
+        => await http.PutAsync<Product, Product>($"products/{id}", producto);
+    public async Task<bool> DeleteAsync(int id)
+        => await http.DeleteAsync($"products/{id}");
 }
