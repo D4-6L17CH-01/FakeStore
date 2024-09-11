@@ -3,9 +3,9 @@
 public class RestProduct : IProducts
 {
     private readonly HttpHelper http;
-    public RestProduct(string baseurl, string token)
+    public RestProduct(string baseUrl, string token)
     {
-        http = new HttpHelper(baseurl, token);
+        http = new HttpHelper(baseUrl, token);
     }
     public async Task<ICollection<Product>> GetAllAsync()
         => await http.GetAsync<ICollection<Product>>("products");
