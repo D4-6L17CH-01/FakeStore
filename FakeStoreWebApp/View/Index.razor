@@ -1,0 +1,15 @@
+﻿@page "/"
+
+@* @inject IJSRuntime JSRuntime *@
+<p>Hola mundo</p>
+@* @inject NavigationManager navigationManager *@
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        // var ruta = $"/login/{(Ecid != 0 ? Ecid : (!Codemp.IsNullOrEmpty() ? Codemp : ""))}";
+        // var query = Op != 0 ? $"?op={Op}" : "";
+        // navigationManager.NavigateTo($"{ruta}{query}", true);
+        // await base.OnInitializedAsync();
+    }
+}

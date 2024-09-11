@@ -1,0 +1,32 @@
+﻿<div class="d-flex align-items-center justify-content-center flex-column" style="height: @AlturaComponente;">
+    <div class="spinner-grow text-primary" role="status" style="width: @TamanoSpinner; height: @TamanoSpinner;">
+        <span class="visually-hidden">Cargando...</span>
+    </div>
+    <p class="fs-@TamanoTexto">Cargando...</p>
+</div>
+
+@code {
+
+    [Parameter]
+    public bool SpinnerPequeno { get; set; }
+
+    private string? AlturaComponente { get; set; }
+    private string? TamanoSpinner { get; set; }
+    private string? TamanoTexto { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (!SpinnerPequeno)
+        {
+            AlturaComponente = "calc(100vh - 141px)";
+            TamanoSpinner = "5rem";
+            TamanoTexto = "3";
+        }
+        else
+        {
+            AlturaComponente = "150px";
+            TamanoSpinner = "3";
+            TamanoTexto = "6";
+        }
+    }
+}
