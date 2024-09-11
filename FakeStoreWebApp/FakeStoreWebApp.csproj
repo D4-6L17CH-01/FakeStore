@@ -18,8 +18,11 @@
     <Folder Include="Views\" />
     <Folder Include="Services\" />
     <Folder Include="Shared\" />
-    <Folder Include="ViewModels\" />
     <Folder Include="Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
 </Project>
