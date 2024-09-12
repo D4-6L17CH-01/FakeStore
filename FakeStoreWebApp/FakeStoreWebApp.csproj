@@ -25,6 +25,7 @@
     <Folder Include="Contracts\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
   <ItemGroup>
