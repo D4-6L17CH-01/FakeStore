@@ -22,7 +22,16 @@ public partial class ProductsViewModel : BaseListViewModel<Product>
         => navigationManager?.NavigateTo("/products/nuevo");
 
     public override async void UpdateAsync()
-        => navigationManager?.NavigateTo($"/products/{SelectedItem?.Id}");
+    {
+        if (SelectedItem is null)
+        {
+            await notificationService.StatusNotification("Validación", "Se debe seleccionar un registro", "error");
+            return;
+        }
+            
+        navigationManager?.NavigateTo($"/products/{SelectedItem?.Id}");
+    }
+        
 
     public override async void DeleteAsync()
     {
