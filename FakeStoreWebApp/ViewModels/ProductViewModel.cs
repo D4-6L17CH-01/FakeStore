@@ -24,6 +24,7 @@ public partial class ProductViewModel : BaseCatViewModel
         {
             await repository.Products.InsertAsync(Product);
             await notificationService.StatusNotification("Éxito", "El producto se ha guardado correctamente", "success");
+            navigationManager.NavigateTo("/products");
         }
         IsBusy = false;
         ClearAsync();
@@ -31,12 +32,7 @@ public partial class ProductViewModel : BaseCatViewModel
 
     public override async void UndoAsync() 
     {
-        IsBusy = true;
-        for (int i = 0; i < 20; i++)
-        {
-            await repository.Products.DeleteAsync(i);
-        }
-        IsBusy = false;
+        navigationManager.NavigateTo("/products");
     }
 
     private protected async virtual Task<bool> Validar<T>(T? obj)
