@@ -1,3 +1,5 @@
+using FakeStoreWebApp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +16,8 @@ builder.Services.AddScoped<CartsViewModel>();
 builder.Services.AddScoped<CartViewModel>();
 builder.Services.AddScoped<UsersViewModel>();
 builder.Services.AddScoped<UserViewModel>();
+
+builder.Services.AddScoped<INotificationService, NotificationService>();
 
 builder.Services.AddSingleton<IRepository, RestRepository>(x => new RestRepository(Herramientas.GetUrl()));
 #endregion

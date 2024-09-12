@@ -17,13 +17,16 @@ public partial class ProductViewModel : BaseCatViewModel
     [ObservableProperty]
     private Product product = new();
 
-    public override async Task SaveAsync() 
+    public override async void SaveAsync() 
     {
-        if(await Validar<Product>(Product))
+        if(await Validar(Product))
         {
 
         }
     }
 
-    public override async Task UndoAsync() { }
+    public override async void UndoAsync() { }
+
+    private protected async virtual Task<bool> Validar<T>(T? obj)
+     => await Validador.ValidarObjeto(obj, notificationService);
 }
