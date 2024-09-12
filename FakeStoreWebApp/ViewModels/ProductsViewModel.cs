@@ -15,4 +15,16 @@ public partial class ProductsViewModel : BaseViewModel
 
     [ObservableProperty]
     private ICollection<Product>? products;
+
+    public async Task GetProductsAsync()
+        => Products = await repository!.Products.GetAllAsync();
+
+    public async Task InsertProduct()
+    {
+
+    }
+
+    public async Task UpdateProduct() { }
+
+    public async Task DeleteProduct() { }
 }
