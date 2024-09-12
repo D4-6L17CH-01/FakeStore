@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +24,7 @@
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Components\\GridControl.razor",
               "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Components\\GridControl.razor",
               "RelativeToolTip": "FakeStoreWebApp\\Components\\GridControl.razor",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACcAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-12T00:11:07.875Z",
               "EditorCaption": ""
