@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\components\\commandbarcat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\components\\commandbarcat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\usersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\cartsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\cartsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\jdtru\\source\\repos\\fakestore\\fakestorewebapp\\view\\cartsview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,26 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CommandBarCat.razor",
-              "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\Components\\CommandBarCat.razor",
-              "RelativeDocumentMoniker": "FakeStoreWebApp\\Components\\CommandBarCat.razor",
-              "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\Components\\CommandBarCat.razor",
-              "RelativeToolTip": "FakeStoreWebApp\\Components\\CommandBarCat.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T04:49:36.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\ViewModels\\ProductViewModel.cs",
               "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\ProductViewModel.cs",
               "RelativeToolTip": "FakeStoreWebApp\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T04:48:09.649Z",
               "EditorCaption": ""
@@ -89,20 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsersViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\UsersViewModel.cs",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\ViewModels\\UsersViewModel.cs",
               "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\UsersViewModel.cs",
               "RelativeToolTip": "FakeStoreWebApp\\ViewModels\\UsersViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T04:45:53.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CartsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\CartsViewModel.cs",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\ViewModels\\CartsViewModel.cs",
@@ -115,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "CartsView.razor",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\View\\CartsView.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\View\\CartsView.razor",
@@ -128,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ProductsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\ProductsViewModel.cs",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\ViewModels\\ProductsViewModel.cs",
               "ToolTip": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\ViewModels\\ProductsViewModel.cs",
               "RelativeToolTip": "FakeStoreWebApp\\ViewModels\\ProductsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T04:26:58.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ProductsView.razor",
               "DocumentMoniker": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\FakeStoreWebApp\\View\\ProductsView.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\View\\ProductsView.razor",
