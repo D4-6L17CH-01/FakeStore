@@ -9,6 +9,7 @@ builder.Services.AddBlazorBootstrap();
 
 #region Servicios
 builder.Services.AddScoped<ProductsViewModel>();
+builder.Services.AddScoped<ProductViewModel>();
 builder.Services.AddScoped<CartsViewModel>();
 builder.Services.AddScoped<UsersViewModel>();
 

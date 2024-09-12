@@ -1,10 +1,11 @@
 ﻿@page "/"
-@using FakeStoreWebApp.Components
 @using Model
+@using FakeStoreWebApp.Components
 
+@inject ProductViewModel ViewModel
 @* @inject IJSRuntime JSRuntime *@
 <CommandBar></CommandBar>
-<FormControl Model="Producto" ExcluirCampos="Rating,Price,Id" OnSubmit="Nada"></FormControl>
+<ProductForm ViewModel="ViewModel" OnSubmit="Nada"></ProductForm>
 @* @inject NavigationManager navigationManager *@
 
 @code {

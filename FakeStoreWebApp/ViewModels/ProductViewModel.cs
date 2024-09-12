@@ -1,4 +1,8 @@
 ﻿
+using Common.Contracts;
+using FakeStoreWebApp.Contracts;
+using Model;
+
 namespace FakeStoreWebApp.ViewModels;
 
 public partial class ProductViewModel : BaseViewModel
@@ -14,5 +18,5 @@ public partial class ProductViewModel : BaseViewModel
     private readonly NavigationManager? navigationManager;
     
     [ObservableProperty]
-    private Product product;
+    private Product product = new();
 }

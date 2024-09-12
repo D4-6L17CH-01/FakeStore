@@ -19,3 +19,4 @@ global using Model;
 global using System.Diagnostics;
 //global using System.IdentityModel.Tokens.Jwt;
 global using System.Reflection;
+global using BlazorBootstrap;
