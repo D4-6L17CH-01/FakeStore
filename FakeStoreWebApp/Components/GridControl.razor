@@ -1,0 +1,47 @@
+﻿@using Model
+@typeparam T
+<table class="table">
+    <thead>
+        <tr>
+            @{
+                foreach (var propiedad in Properties)
+                {
+                    <th scope="col">@propiedad.Name</th>
+                }
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var registro in Lista)
+            {
+                <tr>
+                @{
+                    foreach (var propiedad in Properties)
+                    {
+                        <td>@propiedad.GetValue(registro)?.ToString()</td>
+                    }
+                }
+                </tr>
+            }
+
+        }
+
+    </tbody>
+</table>
+@code {
+    [Parameter]
+    public IEnumerable<T> Lista { get; set; }
+
+    public IEnumerable<PropertyInfo> Properties { get; set; }
+
+    private IEnumerable<System.Reflection.PropertyInfo> GetProperties()
+    {
+        return typeof(T).GetProperties();
+    }
+
+    protected override void OnParametersSet()
+    {
+        Properties = GetProperties();
+    }
+}

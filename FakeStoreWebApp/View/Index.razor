@@ -1,12 +1,33 @@
 ﻿@page "/"
+@using FakeStoreWebApp.Components
+@using Model
 
 @* @inject IJSRuntime JSRuntime *@
-<p>Hola mundo</p>
+<GridControl Lista="Usuarios"></GridControl>
 @* @inject NavigationManager navigationManager *@
 
 @code {
+    public IEnumerable<User>? Usuarios { get; set; }
     protected override async Task OnInitializedAsync()
     {
+        List<User> usuarios = new();
+        usuarios.Add(new()
+        {
+            Username = "Dylanr",
+            Phone = "3227267863"
+        });
+        usuarios.Add(new()
+        {
+            Username = "Santiago",
+            Phone = "3227267863"
+        });
+        usuarios.Add(new()
+        {
+            Username = "Juandi",
+            Phone = "3227267863"
+        });
+        Usuarios = usuarios;
+        
         // var ruta = $"/login/{(Ecid != 0 ? Ecid : (!Codemp.IsNullOrEmpty() ? Codemp : ""))}";
         // var query = Op != 0 ? $"?op={Op}" : "";
         // navigationManager.NavigateTo($"{ruta}{query}", true);
