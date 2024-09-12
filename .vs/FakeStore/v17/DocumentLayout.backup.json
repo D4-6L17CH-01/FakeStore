@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\dylan\\source\\repos\\FakeStore\\",
   "Documents": [
     {
@@ -65,6 +66,10 @@
 >>>>>>> 09ad90d0747df7ab20091692073554952c24e362
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\",
+  "Documents": [],
+>>>>>>> 5433f10baddac47c60d7f3a42f6c5244760e9597
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -72,6 +77,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
+<<<<<<< HEAD
 <<<<<<< HEAD
           "SelectedChildIndex": 5,
 =======
@@ -81,10 +87,14 @@
           "SelectedChildIndex": 1,
 >>>>>>> adc50528bc727049f8210187fd405ba6ce27bc44
 >>>>>>> 09ad90d0747df7ab20091692073554952c24e362
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> 5433f10baddac47c60d7f3a42f6c5244760e9597
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -273,6 +283,8 @@
 >>>>>>> adc50528bc727049f8210187fd405ba6ce27bc44
 >>>>>>> 09ad90d0747df7ab20091692073554952c24e362
               "EditorCaption": ""
+=======
+>>>>>>> 5433f10baddac47c60d7f3a42f6c5244760e9597
             }
           ]
         }

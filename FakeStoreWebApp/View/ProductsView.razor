@@ -6,10 +6,12 @@
 
 <h5>Productos</h5>
 
+@* TODO: Aqui va la grid generica *@
+
 @code {
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        ViewModel.InicializarAsync();
-        return base.OnInitializedAsync();
+        await ViewModel.InicializarAsync();
+        await base.OnInitializedAsync();
     }
 }

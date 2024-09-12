@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\dylan\\source\\repos\\FakeStore\\",
   "Documents": [
     {
@@ -23,6 +24,10 @@
       "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\jdtru\\source\\repos\\FakeStore\\",
+  "Documents": [],
+>>>>>>> 5433f10baddac47c60d7f3a42f6c5244760e9597
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,11 +35,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> 5433f10baddac47c60d7f3a42f6c5244760e9597
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -100,6 +110,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-12T03:14:02.38Z",
               "EditorCaption": ""
+=======
+>>>>>>> 5433f10baddac47c60d7f3a42f6c5244760e9597
             }
           ]
         }
