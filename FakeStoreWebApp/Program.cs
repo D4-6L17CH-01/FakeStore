@@ -8,6 +8,11 @@ builder.Services.AddHttpClient();
 builder.Services.AddBlazorBootstrap();
 
 #region Servicios
+builder.Services.AddScoped<ProductsViewModel>();
+builder.Services.AddScoped<CartsViewModel>();
+builder.Services.AddScoped<UsersViewModel>();
+
+builder.Services.AddSingleton<IRepository, RestRepository>(x => new RestRepository(Herramientas.GetUrl()));
 #endregion
 
 builder.Services.AddAuthorizationCore();

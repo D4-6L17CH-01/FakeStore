@@ -18,3 +18,6 @@ global using FakeStoreWebApp.Basics;
 //global using FakeStoreWebApp.Services;
 //global using FakeStoreWebApp.ViewModel;
 global using FakeStoreWebApp.Components;
+global using Common.Contracts;
+global using Common.Rest;
+global using FakeStoreWebApp.ViewModels;

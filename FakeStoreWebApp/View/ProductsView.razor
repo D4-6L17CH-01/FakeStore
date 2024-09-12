@@ -1,0 +1,15 @@
+﻿@page "/products"
+
+@inject ProductsViewModel ViewModel
+
+<PageTitle>Productos</PageTitle>
+
+<h5>Productos</h5>
+
+@code {
+    protected override Task OnInitializedAsync()
+    {
+        ViewModel.InicializarAsync();
+        return base.OnInitializedAsync();
+    }
+}
