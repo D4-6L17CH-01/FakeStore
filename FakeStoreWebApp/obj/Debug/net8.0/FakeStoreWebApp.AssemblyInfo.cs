@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FakeStoreWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37c783c9823a38235ab8b1fdfe12113ce265b487")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e44a25f86bbb3952cffbb954cd857f2c5673aefa")]
 [assembly: System.Reflection.AssemblyProductAttribute("FakeStoreWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FakeStoreWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
