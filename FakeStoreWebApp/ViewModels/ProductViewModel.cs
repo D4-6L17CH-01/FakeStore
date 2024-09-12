@@ -19,12 +19,13 @@ public partial class ProductViewModel : BaseViewModel
 
     public async Task SaveAsync() 
     {
-        if (Product == null)
-            await notificationService.StatusNotification("Validación", "Registro vacio", "error");
+        if(await Validar<Product>(Product))
+        {
 
-
+        }
     }
 
     public async void UndoAsync() { }
-
+    private protected async virtual Task<bool> Validar<T>(T? obj)
+     => await Validador.ValidarObjeto(obj, notificationService);
 }
