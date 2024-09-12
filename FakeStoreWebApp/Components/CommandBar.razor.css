@@ -1,13 +1,1 @@
-﻿.command-bar {
-    display: flex;
-    justify-content: flex-end; /* Alinea los botones a la derecha */
-    align-items: center; /* Alinea los elementos verticalmente */
-    padding: 0.5rem; /* Ajusta el padding para que sea más compacto */
-    height: var(--command-bar-height); /* Define una altura menor */
-    background-color: #ff0000; /* Color de fondo opcional */
-    border-bottom: 1px solid #ddd; /* Línea debajo de la barra */
-}
-
-    .command-bar .btn {
-        margin-left: var(--button-margin-left); /* Espacio entre los botones */
-    }
+﻿
