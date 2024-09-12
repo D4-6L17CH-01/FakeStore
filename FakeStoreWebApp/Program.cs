@@ -11,7 +11,9 @@ builder.Services.AddBlazorBootstrap();
 builder.Services.AddScoped<ProductsViewModel>();
 builder.Services.AddScoped<ProductViewModel>();
 builder.Services.AddScoped<CartsViewModel>();
+builder.Services.AddScoped<CartViewModel>();
 builder.Services.AddScoped<UsersViewModel>();
+builder.Services.AddScoped<UserViewModel>();
 
 builder.Services.AddSingleton<IRepository, RestRepository>(x => new RestRepository(Herramientas.GetUrl()));
 #endregion

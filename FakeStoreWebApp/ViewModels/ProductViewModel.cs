@@ -2,7 +2,7 @@
 
 namespace FakeStoreWebApp.ViewModels;
 
-public partial class ProductViewModel : BaseViewModel
+public partial class ProductViewModel : BaseCatViewModel
 {
     public ProductViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -17,7 +17,7 @@ public partial class ProductViewModel : BaseViewModel
     [ObservableProperty]
     private Product product = new();
 
-    public async Task SaveAsync() 
+    public override async Task SaveAsync() 
     {
         if(await Validar<Product>(Product))
         {
@@ -25,7 +25,5 @@ public partial class ProductViewModel : BaseViewModel
         }
     }
 
-    public async void UndoAsync() { }
-    private protected async virtual Task<bool> Validar<T>(T? obj)
-     => await Validador.ValidarObjeto(obj, notificationService);
+    public override async Task UndoAsync() { }
 }

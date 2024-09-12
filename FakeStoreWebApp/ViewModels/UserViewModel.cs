@@ -1,7 +1,6 @@
-﻿
-namespace FakeStoreWebApp.ViewModels;
+﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class UserViewModel : BaseViewModel
+public partial class UserViewModel : BaseCatViewModel
 {
     public UserViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -17,5 +16,13 @@ public partial class UserViewModel : BaseViewModel
     [ObservableProperty]
     private User user;
 
-    public async void SaveChangesAsync() { }
+    public override Task SaveAsync()
+    {
+        return base.SaveAsync();
+    }
+
+    public override Task UndoAsync()
+    {
+        return base.UndoAsync();
+    }
 }
