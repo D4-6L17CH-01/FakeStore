@@ -6,6 +6,10 @@
 
 <h5>Productos</h5>
 
+<CommandBar OnRefresh="ViewModel.GetProductsAsync" OnCreate="ViewModel.InsertProductAsync" OnEdit="ViewModel.UpdateProductAsync" OnDelete="ViewModel.DeleteProductAsync"></CommandBar>
+
+<GridControl Lista="ViewModel.Products"></GridControl>
+
 @* TODO: Aqui va la grid generica *@
 
 @code {

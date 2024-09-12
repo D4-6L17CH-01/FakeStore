@@ -2,5 +2,5 @@
 
 public static class Constantes
 {
-    public const string URL_API = "";
+    public const string URL_API = "https://fakestoreapi.com/";
 }

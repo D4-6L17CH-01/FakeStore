@@ -1,5 +1,4 @@
-﻿@using Model
-@typeparam T
+﻿@typeparam T
 <table class="table">
     <thead>
         <tr>
@@ -12,21 +11,18 @@
         </tr>
     </thead>
     <tbody>
-        @{
-            foreach (var registro in Lista)
+        @if (Lista != null)
+        {
+            @foreach (var registro in Lista)
             {
                 <tr>
-                @{
-                    foreach (var propiedad in Properties)
+                    @foreach (var propiedad in Properties)
                     {
                         <td>@propiedad.GetValue(registro)?.ToString()</td>
                     }
-                }
                 </tr>
             }
-
         }
-
     </tbody>
 </table>
 @code {

@@ -1,0 +1,17 @@
+﻿<div class="d-flex justify-content-end">
+    <button class="btn btn-primary" @onclick="OnSave">Guardar</button>
+    <button class="btn btn-danger ms-2" @onclick="OnUndo" disabled="@IsUndoDisabled">Deshacer</button>
+</div>
+
+@code {
+    // Parámetros para definir si los botones están deshabilitados
+    [Parameter]
+    public bool IsUndoDisabled { get; set; }
+
+    // Eventos que se disparan al hacer clic en cada acción
+    [Parameter]
+    public Action OnSave { get; set; }
+
+    [Parameter]
+    public Action OnUndo { get; set; }
+}
