@@ -1,9 +1,10 @@
-﻿<div class="command-bar">
+﻿<div class="d-flex justify-content-end">
     <button class="btn btn-primary" @onclick="OnCreate">Agregar</button>
-    <button class="btn btn-warning" @onclick="OnEdit" disabled="@IsEditDisabled">Editar</button>
-    <button class="btn btn-danger" @onclick="OnDelete" disabled="@IsDeleteDisabled">Eliminar</button>
-    <button class="btn btn-secondary" @onclick="OnRefresh">Actualizar</button>
+    <button class="btn btn-warning ms-2" @onclick="OnEdit" disabled="@IsEditDisabled">Editar</button>
+    <button class="btn btn-danger ms-2" @onclick="OnDelete" disabled="@IsDeleteDisabled">Eliminar</button>
+    <button class="btn btn-secondary ms-2" @onclick="OnRefresh">Actualizar</button>
 </div>
+
 
 @code {
     // Parámetros para definir si los botones están deshabilitados

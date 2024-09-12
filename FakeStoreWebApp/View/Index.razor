@@ -4,11 +4,12 @@
 
 @* @inject IJSRuntime JSRuntime *@
 <CommandBar></CommandBar>
-<GridControl Lista="Productos"></GridControl>
+<FormControl Model="Producto"></FormControl>
 @* @inject NavigationManager navigationManager *@
 
 @code {
     public IEnumerable<Product>? Productos { get; set; }
+    public Product? Producto { get; set; } = new();
     protected override async Task OnInitializedAsync()
     {
         List<Product> productos = new();

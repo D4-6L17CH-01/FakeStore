@@ -33,11 +33,23 @@
     [Parameter]
     public IEnumerable<T> Lista { get; set; }
 
+    [Parameter]
+    public string PropiedadesExcluidas { get; set; }
+
     public IEnumerable<PropertyInfo> Properties { get; set; }
 
     private IEnumerable<System.Reflection.PropertyInfo> GetProperties()
     {
-        return typeof(T).GetProperties();
+        var allProperties = typeof(T).GetProperties();
+
+        // Si se especifican propiedades para incluir, filtrarlas
+        if (PropiedadesExcluidas != null && PropiedadesExcluidas.Any())
+        {
+            return allProperties.Where(p => !PropiedadesExcluidas.Contains(p.Name));
+        }
+
+        // Si no se especifican propiedades, devolver todas
+        return allProperties;
     }
 
     protected override void OnParametersSet()
