@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/Components/CommandBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tYW5kQmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-lbjph5cf2h
+
 [C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/Components/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-30y5v4vqrg

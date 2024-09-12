@@ -3,30 +3,64 @@
 @using Model
 
 @* @inject IJSRuntime JSRuntime *@
-<GridControl Lista="Usuarios"></GridControl>
+<CommandBar></CommandBar>
+<GridControl Lista="Productos"></GridControl>
 @* @inject NavigationManager navigationManager *@
 
 @code {
-    public IEnumerable<User>? Usuarios { get; set; }
+    public IEnumerable<Product>? Productos { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        List<User> usuarios = new();
-        usuarios.Add(new()
-        {
-            Username = "Dylanr",
-            Phone = "3227267863"
-        });
-        usuarios.Add(new()
-        {
-            Username = "Santiago",
-            Phone = "3227267863"
-        });
-        usuarios.Add(new()
-        {
-            Username = "Juandi",
-            Phone = "3227267863"
-        });
-        Usuarios = usuarios;
+        List<Product> productos = new();
+        var product1 = new Product
+            {
+                Id = 1,
+                Title = "Wireless Bluetooth Headphones",
+                Price = 59.99m,
+                Description = "High-quality wireless headphones with noise cancellation and long battery life.",
+                Category = "Electronics",
+                Image = "https://example.com/images/headphones.jpg",
+                Rating = new Rating
+                {
+                    Rate = 4.5m,
+                    Count = 120
+                }
+            };
+
+        var product2 = new Product
+            {
+                Id = 2,
+                Title = "Stainless Steel Water Bottle",
+                Price = 19.99m,
+                Description = "Eco-friendly and durable water bottle with a 500ml capacity.",
+                Category = "Home & Kitchen",
+                Image = "https://example.com/images/waterbottle.jpg",
+                Rating = new Rating
+                {
+                    Rate = 4.8m,
+                    Count = 85
+                }
+            };
+
+        var product3 = new Product
+            {
+                Id = 3,
+                Title = "Classic Leather Wallet",
+                Price = 34.99m,
+                Description = "Genuine leather wallet with multiple card slots and a coin pocket.",
+                Category = "Accessories",
+                Image = "https://example.com/images/wallet.jpg",
+                Rating = new Rating
+                {
+                    Rate = 4.2m,
+                    Count = 45
+                }
+            };
+        productos.Add(product1);
+        productos.Add(product2);
+        productos.Add(product3);
+
+        Productos = productos;
         
         // var ruta = $"/login/{(Ecid != 0 ? Ecid : (!Codemp.IsNullOrEmpty() ? Codemp : ""))}";
         // var query = Op != 0 ? $"?op={Op}" : "";
