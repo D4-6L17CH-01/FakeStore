@@ -4,7 +4,7 @@
 
     <div class="card-header rounded-top-4 text-bg-dark text-center">
         <h1 class="fw-normal">
-            Bienvenido al portal de recaudos
+            Creación de productos
         </h1>
     </div>
 
@@ -14,7 +14,7 @@
             Por favor ingrese los siguientes datos.
         </p>
 
-        <EditForm Model="ViewModel?.Product" OnValidSubmit="(async () => await OnSubmit!())">
+        <EditForm Model="ViewModel?.Product">
             <div class="form-outline mb-4">
                 <div class="input-group mb-3">
                     <span class="input-group-text">
@@ -55,23 +55,6 @@
                     <InputText class="form-control" placeholder="Imagen" @bind-Value="@ViewModel.Product.Image"></InputText>
                 </div>
             </div>
-            <div class="pt-1 mb-4 container">
-                <div class="row">
-                    <div class="col-auto me-auto px-0">
-                        @if (!ViewModel.IsBusy)
-                        {
-                            <button type="submit" class="btn btn-dark">Iniciar sesión</button>
-                        }
-                        else
-                        {
-                            <button type="button" class="btn btn-dark" disabled>
-                                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                                <span role="status">Ingresando...</span>
-                            </button>
-                        }
-                    </div>
-                </div>
-            </div>
         </EditForm>
     </div>
 </div>
@@ -79,7 +62,4 @@
 @code {
     [Parameter]
     public ProductViewModel? ViewModel { get; set; }
-
-    [Parameter]
-    public Func<Task>? OnSubmit { get; set; }
 }

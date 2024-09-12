@@ -17,6 +17,6 @@ public class RestProduct : IProducts
         => await http.PostAsync<Product, Product>($"products", producto);
     public async Task<Product> UpdateAsync(int id, Product producto)
         => await http.PutAsync<Product, Product>($"products/{id}", producto);
-    public async Task<bool> DeleteAsync(int id)
-        => await http.DeleteAsync($"products/{id}");
+    public async Task<Product> DeleteAsync(int id)
+        => await http.DeleteAsync<Product>($"products/{id}");
 }

@@ -1,6 +1,4 @@
-﻿
-
-namespace FakeStoreWebApp.ViewModels;
+﻿namespace FakeStoreWebApp.ViewModels;
 
 public partial class ProductViewModel : BaseCatViewModel
 {
@@ -10,20 +8,39 @@ public partial class ProductViewModel : BaseCatViewModel
         notificationService = serviceProvider?.GetService<INotificationService>()!;
         navigationManager = serviceProvider?.GetService<NavigationManager>();
     }
+
     private readonly IRepository? repository;
     private readonly INotificationService notificationService;
     private readonly NavigationManager? navigationManager;
-    
+
     [ObservableProperty]
     private Product product = new();
 
-    public override async Task SaveAsync() 
+    // Usa la propiedad generada 'Product' en lugar de 'product'
+    public override async void SaveAsync()
     {
-        if (Product == null)
-            await notificationService.StatusNotification("Validación", "Registro vacio", "error");
-
-
+        IsBusy = true;
+        if (await Validar(Product))  
+        {
+            await repository.Products.InsertAsync(Product);
+            await notificationService.StatusNotification("Éxito", "El producto se ha guardado correctamente", "success");
+            navigationManager.NavigateTo("/products");
+        }
+        IsBusy = false;
+        ClearAsync();
     }
 
-    public override async Task UndoAsync() { }
+    public override async void UndoAsync() 
+    {
+        navigationManager.NavigateTo("/products");
+    }
+
+    private protected async virtual Task<bool> Validar<T>(T? obj)
+     => await Validador.ValidarObjeto(obj, notificationService);
+
+    public override void ClearAsync()
+    {
+        Product = new Product(); 
+        StateHasChanged();
+    }
 }

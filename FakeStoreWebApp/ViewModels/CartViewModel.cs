@@ -14,13 +14,13 @@ public partial class CartViewModel : BaseCatViewModel
         return base.InicializarAsync();
     }
 
-    public override Task SaveAsync()
+    public override void SaveAsync()
     {
-        return base.SaveAsync();
+        base.SaveAsync();
     }
 
-    public override Task UndoAsync()
+    public override void UndoAsync()
     {
-        return base.UndoAsync();
+        base.UndoAsync();
     }
 }

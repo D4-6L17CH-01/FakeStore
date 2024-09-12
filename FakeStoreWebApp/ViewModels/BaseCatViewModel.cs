@@ -6,7 +6,8 @@ public class BaseCatViewModel : BaseViewModel
     {
     }
 
-    public virtual async Task SaveAsync() { }
+    public virtual async void SaveAsync() { }
 
-    public virtual async Task UndoAsync() { }
+    public virtual async void UndoAsync() { }
+    public virtual async void ClearAsync() { }
 }
