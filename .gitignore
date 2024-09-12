@@ -3,6 +3,22 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+# Ignorar archivos generados por Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar directorios de compilacion
+obj/
+bin/
+
+# Ignorar archivos de cache
+*.assets.cache
+
+
 # User-specific folders
 *Debug/
 
