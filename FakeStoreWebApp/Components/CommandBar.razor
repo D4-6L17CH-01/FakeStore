@@ -16,14 +16,14 @@
 
     // Eventos que se disparan al hacer clic en cada acción
     [Parameter]
-    public EventCallback OnCreate { get; set; }
+    public Action OnCreate { get; set; }
 
     [Parameter]
-    public EventCallback OnEdit { get; set; }
+    public Action OnEdit { get; set; }
 
     [Parameter]
-    public EventCallback OnDelete { get; set; }
+    public Action OnDelete { get; set; }
 
     [Parameter]
-    public EventCallback OnRefresh { get; set; }
+    public Action OnRefresh { get; set; }
 }

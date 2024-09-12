@@ -1,4 +1,5 @@
-﻿@using FakeStoreWebApp.ViewModels
+﻿@using BlazorBootstrap
+
 <div class="card rounded-4 shadow">
 
     <div class="card-header rounded-top-4 text-bg-dark text-center">
@@ -13,21 +14,45 @@
             Por favor ingrese los siguientes datos.
         </p>
 
-        <EditForm Model="ViewModel!.Product" OnValidSubmit="(async () => await OnSubmit!())">
+        <EditForm Model="ViewModel?.Product" OnValidSubmit="(async () => await OnSubmit!())">
             <div class="form-outline mb-4">
                 <div class="input-group mb-3">
                     <span class="input-group-text">
-                        <i class="bi bi-building-fill"></i>
+                        <i class="bi bi-cart"></i>
                     </span>
-                    <InputText class="form-control" placeholder="Código de empresa" @bind-Value="@ViewModel.Product!.Title"></InputText>
+                    <InputText class="form-control" placeholder="Nombre del producto" @bind-Value="@ViewModel.Product!.Title"></InputText>
                 </div>
             </div>
             <div class="form-outline mb-4">
                 <div class="input-group mb-3">
                     <span class="input-group-text">
-                        <i class="bi bi-building-fill"></i>
+                        <i class="bi bi-cart"></i>
                     </span>
-                        <CurrencyInput TValue="decimal" @bind-Value="@ViewModel.Price" Placeholder="Enter amount" />
+                    <CurrencyInput TValue="decimal" @bind-Value="@ViewModel.Product.Price" Placeholder="Precio" />
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Descripcion" @bind-Value="@ViewModel.Product.Description"></InputText>
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Categoria" @bind-Value="@ViewModel.Product.Category"></InputText>
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Imagen" @bind-Value="@ViewModel.Product.Image"></InputText>
                 </div>
             </div>
             <div class="pt-1 mb-4 container">
@@ -45,9 +70,6 @@
                             </button>
                         }
                     </div>
-                    <div class="col-auto ms-auto align-self-center px-0">
-                        <a href="https://syscafe.com/politica-privacidad/" class="small text-body-secondary text-decoration-none" rel="noreferrer noopener">Política de privacidad.</a>
-                    </div>
                 </div>
             </div>
         </EditForm>
@@ -56,7 +78,7 @@
 
 @code {
     [Parameter]
-    public ProductsViewModel? ViewModel { get; set; }
+    public ProductViewModel? ViewModel { get; set; }
 
     [Parameter]
     public Func<Task>? OnSubmit { get; set; }
