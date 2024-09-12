@@ -4,12 +4,16 @@
 
 @* @inject IJSRuntime JSRuntime *@
 <CommandBar></CommandBar>
-<FormControl Model="Producto"></FormControl>
+<FormControl Model="Producto" ExcluirCampos="Rating,Price,Id" OnSubmit="Nada"></FormControl>
 @* @inject NavigationManager navigationManager *@
 
 @code {
     public IEnumerable<Product>? Productos { get; set; }
     public Product? Producto { get; set; } = new();
+    public async Task Nada()
+    {
+        
+    }
     protected override async Task OnInitializedAsync()
     {
         List<Product> productos = new();
