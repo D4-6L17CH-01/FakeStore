@@ -6,9 +6,9 @@
 
 <h5>Productos</h5>
 
-<CommandBar OnRefresh="ViewModel.GetProductsAsync" OnCreate="ViewModel.InsertProductAsync" OnEdit="ViewModel.UpdateProductAsync" OnDelete="ViewModel.DeleteProductAsync"></CommandBar>
+<CommandBar OnRefresh="ViewModel.GetAsync" OnCreate="ViewModel.InsertAsync" OnEdit="ViewModel.UpdateAsync" OnDelete="ViewModel.DeleteAsync"></CommandBar>
 
-<GridControl Lista="ViewModel.Products"></GridControl>
+<GridControl Lista="ViewModel.Items" SelectedItem="ViewModel.SelectedItem" OnSelected="ViewModel.SelAsync"></GridControl>
 
 @* TODO: Aqui va la grid generica *@
 

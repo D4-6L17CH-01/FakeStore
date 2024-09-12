@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class ProductsViewModel : BaseViewModel
+public partial class ProductsViewModel : BaseListViewModel<Product>
 {
     public ProductsViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -13,23 +13,20 @@ public partial class ProductsViewModel : BaseViewModel
     private readonly INotificationService notificationService;
     private readonly NavigationManager? navigationManager;
 
-    [ObservableProperty]
-    private ICollection<Product>? products;
-
-    public async void GetProductsAsync()
+    public override async void GetAsync()
     {
-        Products = await repository!.Products.GetAllAsync();
+        Items = await repository!.Products.GetAllAsync();
         StateHasChanged!();
     }
-    public async void InsertProductAsync()
-    {
-        navigationManager.NavigateTo("/products/nuevo");
-    }
+    public override async void InsertAsync()
+        => navigationManager?.NavigateTo("/products/nuevo");
 
-    public async void UpdateProductAsync()
-    {
-        navigationManager.NavigateTo("/products/1");
-    }
+    public override async void UpdateAsync()
+        => navigationManager?.NavigateTo($"/products/{SelectedItem?.Id}");
 
-    public async void DeleteProductAsync() { }
+    public override async void DeleteAsync()
+    {
+        await repository!.Products.DeleteAsync(SelectedItem!.Id);
+        StateHasChanged!();
+    }
 }

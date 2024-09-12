@@ -15,22 +15,40 @@
         {
             @foreach (var registro in Lista)
             {
-                <tr>
-                    @foreach (var propiedad in Properties)
-                    {
-                        <td>@propiedad.GetValue(registro)?.ToString()</td>
-                    }
-                </tr>
+                @if (SelectedItem?.Equals(registro) ?? false)
+                {
+                    <tr class="table-active" @onclick="(() => OnSelected(registro))">
+                        @foreach (var propiedad in Properties)
+                        {
+                            <td>@propiedad.GetValue(registro)?.ToString()</td>
+                        }
+                    </tr>
+                }
+                else
+                {
+                    <tr @onclick="(() => OnSelected(registro))">
+                        @foreach (var propiedad in Properties)
+                        {
+                            <td>@propiedad.GetValue(registro)?.ToString()</td>
+                        }
+                    </tr>
+                }
             }
         }
     </tbody>
 </table>
 @code {
     [Parameter]
+    public T SelectedItem { get; set; }
+
+    [Parameter]
     public IEnumerable<T> Lista { get; set; }
 
     [Parameter]
     public string PropiedadesExcluidas { get; set; }
+
+    [Parameter]
+    public Action<T> OnSelected { get; set; }
 
     public IEnumerable<PropertyInfo> Properties { get; set; }
 
