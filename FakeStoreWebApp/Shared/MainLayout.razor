@@ -4,10 +4,15 @@
 
 <div class="page">
     <main>
-        <NavMenu></NavMenu>
-        <article class="content px-4">
-            @Body
-        </article>
-        @* <Footer /> *@
+        <div class="row">
+            <div class="col-2">
+                <NavMenu></NavMenu>
+            </div>
+            <div class="col">
+                <article class="content px-4">
+                    @Body
+                </article>
+            </div>
+        </div>
     </main>
 </div>

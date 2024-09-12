@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\components\\formcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\components\\gridcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\components\\gridcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\view\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\view\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\fakestorewebapp\\components\\gridcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98C670B9-61AE-4EF0-8580-41E00A7BA1C7}|FakeStoreWebApp\\FakeStoreWebApp.csproj|solutionrelative:fakestorewebapp\\components\\gridcontrol.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB442485-053D-46D2-A9D2-884D452D8B36}|Model\\Model.csproj|c:\\users\\dylan\\source\\repos\\fakestore\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,12 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -64,7 +60,7 @@
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Components\\FormControl.razor",
               "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Components\\FormControl.razor",
               "RelativeToolTip": "FakeStoreWebApp\\Components\\FormControl.razor",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-12T02:50:03.715Z",
               "EditorCaption": ""
@@ -136,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GridControl.razor",
               "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\Components\\GridControl.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\Components\\GridControl.razor",
@@ -149,13 +145,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\View\\Index.razor",
               "RelativeDocumentMoniker": "FakeStoreWebApp\\View\\Index.razor",
               "ToolTip": "C:\\Users\\dylan\\source\\repos\\FakeStore\\FakeStoreWebApp\\View\\Index.razor",
               "RelativeToolTip": "FakeStoreWebApp\\View\\Index.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-12T02:01:14.157Z",
               "EditorCaption": ""
