@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class CartViewModel : BaseViewModel
+public partial class CartViewModel : BaseCatViewModel
 {
     public CartViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -8,4 +8,19 @@ public partial class CartViewModel : BaseViewModel
 
     [ObservableProperty]
     private Cart cart;
+
+    public override Task InicializarAsync()
+    {
+        return base.InicializarAsync();
+    }
+
+    public override Task SaveAsync()
+    {
+        return base.SaveAsync();
+    }
+
+    public override Task UndoAsync()
+    {
+        return base.UndoAsync();
+    }
 }

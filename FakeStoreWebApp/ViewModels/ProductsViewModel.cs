@@ -17,8 +17,10 @@ public partial class ProductsViewModel : BaseViewModel
     private ICollection<Product>? products;
 
     public async void GetProductsAsync()
-        => Products = await repository!.Products.GetAllAsync();
-
+    {
+        Products = await repository!.Products.GetAllAsync();
+        StateHasChanged!();
+    }
     public async void InsertProductAsync()
     {
         navigationManager.NavigateTo("/products/nuevo");

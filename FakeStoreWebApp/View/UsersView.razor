@@ -1,9 +1,18 @@
 ﻿@page "/users"
 
+@inject UsersViewModel ViewModel
+
 <PageTitle>Usuarios</PageTitle>
+
+<CommandBar></CommandBar>
 
 <h5>Usuarios</h5>
 
 @code {
-
+    protected override async Task OnInitializedAsync()
+    {
+        ViewModel.StateHasChanged = StateHasChanged;
+        await ViewModel.InicializarAsync();
+        await base.OnInitializedAsync();
+    }
 }

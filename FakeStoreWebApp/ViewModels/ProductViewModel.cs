@@ -1,7 +1,7 @@
 ﻿
 namespace FakeStoreWebApp.ViewModels;
 
-public partial class ProductViewModel : BaseViewModel
+public partial class ProductViewModel : BaseCatViewModel
 {
     public ProductViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -16,7 +16,7 @@ public partial class ProductViewModel : BaseViewModel
     [ObservableProperty]
     private Product product = new();
 
-    public async void SaveAsync() { }
+    public override async Task SaveAsync() { }
 
-    public async void UndoAsync() { }
+    public override async Task UndoAsync() { }
 }
