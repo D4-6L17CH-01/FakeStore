@@ -34,8 +34,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/View/CartsView.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xDYXJ0c1ZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/View/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/View/ProductsView.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xQcm9kdWN0c1ZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/View/UsersView.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xVc2Vyc1ZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dylan/source/repos/FakeStore/FakeStoreWebApp/_Imports.razor]
