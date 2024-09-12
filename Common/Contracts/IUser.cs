@@ -6,5 +6,5 @@ public interface IUser
     Task<User> GetAsync(int id);
     Task<User> InsertAsync(User usuario);
     Task<User> UpdateAsync(int id, User usuario);
-    Task<bool> DeleteAsync(int id);
+    Task<User> DeleteAsync(int id);
 }

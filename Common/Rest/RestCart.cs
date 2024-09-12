@@ -23,6 +23,6 @@ public class RestCart : ICart
     public async Task<Cart> PatchAsync(int id, Cart carrito)
         => await http.PatchAsync<Cart, Cart>($"carts/{id}", carrito);
 
-    public async Task<bool> DeleteAsync(int id)
-        => await http.DeleteAsync($"carts/{id}");
+    public async Task<Cart> DeleteAsync(int id)
+        => await http.DeleteAsync<Cart>($"carts/{id}");
 }

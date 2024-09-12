@@ -11,8 +11,8 @@ public class RestUser : IUser
     private readonly HttpHelper http;
     public RestUser(string baseUrl, string token)
         => http = new HttpHelper(baseUrl, token);
-    public async Task<bool> DeleteAsync(int id)
-        => await http.DeleteAsync($"users/{id}");
+    public async Task<User> DeleteAsync(int id)
+        => await http.DeleteAsync<User>($"users/{id}");
 
     public async Task<ICollection<User>> GetAllAsync()
         => await http.GetAsync<ICollection<User>>("users");

@@ -2,7 +2,7 @@
 @page "/products/{Id}"
 @inject ProductViewModel ViewModel
 
-<CommandBarCat OnSave="ViewModel.SaveAsync" OnUndo="ViewModel.UndoAsync"></CommandBarCat>
+<CommandBarCat IsBusy="ViewModel.IsBusy" OnSave="ViewModel.SaveAsync" OnUndo="ViewModel.UndoAsync"></CommandBarCat>
 <ProductForm ViewModel="ViewModel"></ProductForm>
 
 @code {
@@ -10,6 +10,7 @@
     public int Id { get; set;  }
     protected override async Task OnInitializedAsync()
     {
+        ViewModel.StateHasChanged = StateHasChanged;
         await ViewModel.InicializarAsync();
         await base.OnInitializedAsync();
     }

@@ -8,5 +8,5 @@ public interface ICart
     Task<Cart> InsertAsync(Cart carrito);
     Task<Cart> UpdateAsync(int id, Cart carrito);
     Task<Cart> PatchAsync(int id, Cart carrito);
-    Task<bool> DeleteAsync(int id);
+    Task<Cart> DeleteAsync(int id);
 }
