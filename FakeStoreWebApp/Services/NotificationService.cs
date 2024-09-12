@@ -1,4 +1,6 @@
-﻿namespace FakeStoreWebApp.Services;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FakeStoreWebApp.Services;
 
 public class NotificationService : INotificationService
 {
@@ -19,4 +21,14 @@ public class NotificationService : INotificationService
         await StatusNotification("Oops...", error, "error");
         return;
     }
+    public async Task ValidarResultados(IEnumerable<ValidationResult> validationResults)
+    {
+        var message = "";
+        var x = 0;
+        foreach (var i in validationResults)
+            message += $"{++x}. {i.ErrorMessage}\n";
+
+        await StatusNotification($"VALIDACIONES ({x})", message, "question");
+    }
+
 }

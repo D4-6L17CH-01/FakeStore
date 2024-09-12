@@ -1,5 +1,15 @@
-﻿<h3>ProductView</h3>
+﻿@page "/products/nuevo"
+@page "/products/{Id}"
+@inject ProductViewModel ViewModel
+
+<ProductForm ViewModel="ViewModel" OnSubmit="ViewModel.SaveAsync"></ProductForm>
 
 @code {
-
+    [Parameter]
+    public int Id { get; set;  }
+    protected override async Task OnInitializedAsync()
+    {
+        await ViewModel.InicializarAsync();
+        await base.OnInitializedAsync();
+    }
 }

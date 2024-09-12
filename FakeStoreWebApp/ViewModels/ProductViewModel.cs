@@ -1,4 +1,5 @@
 ﻿
+
 namespace FakeStoreWebApp.ViewModels;
 
 public partial class ProductViewModel : BaseViewModel
@@ -16,7 +17,14 @@ public partial class ProductViewModel : BaseViewModel
     [ObservableProperty]
     private Product product = new();
 
-    public async void SaveAsync() { }
+    public async Task SaveAsync() 
+    {
+        if (Product == null)
+            await notificationService.StatusNotification("Validación", "Registro vacio", "error");
+
+
+    }
 
     public async void UndoAsync() { }
+
 }
