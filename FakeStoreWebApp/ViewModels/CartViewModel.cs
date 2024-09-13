@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class CartViewModel : BaseCatViewModel
+public partial class CartViewModel : BaseCatViewModel<Cart>
 {
     public CartViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {

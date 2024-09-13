@@ -1,5 +1,5 @@
-﻿@page "/products/nuevo"
-@page "/products/{Id}"
+﻿@page "/products/{Nuevo}"
+@page "/products/{Id:int}"
 @inject ProductViewModel ViewModel
 
 <CommandBarCat IsBusy="ViewModel.IsBusy" OnSave="ViewModel.SaveAsync" OnUndo="ViewModel.UndoAsync"></CommandBarCat>
@@ -7,10 +7,15 @@
 
 @code {
     [Parameter]
-    public int Id { get; set;  }
+    public int Id { get; set; }
+
+    [Parameter]
+    public string Nuevo { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         ViewModel.StateHasChanged = StateHasChanged;
+        ViewModel.EntidadId = Id;
         await ViewModel.InicializarAsync();
         await base.OnInitializedAsync();
     }

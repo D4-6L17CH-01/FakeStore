@@ -28,10 +28,10 @@ public partial class ProductsViewModel : BaseListViewModel<Product>
             await notificationService.StatusNotification("Validación", "Se debe seleccionar un registro", "error");
             return;
         }
-            
+
         navigationManager?.NavigateTo($"/products/{SelectedItem?.Id}");
     }
-        
+
 
     public override async void DeleteAsync()
     {

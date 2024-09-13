@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class UserViewModel : BaseCatViewModel
+public partial class UserViewModel : BaseCatViewModel<User>
 {
     public UserViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {

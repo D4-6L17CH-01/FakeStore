@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class ProductViewModel : BaseCatViewModel
+public partial class ProductViewModel : BaseCatViewModel<Product>
 {
     public ProductViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -13,34 +13,35 @@ public partial class ProductViewModel : BaseCatViewModel
     private readonly INotificationService notificationService;
     private readonly NavigationManager? navigationManager;
 
-    [ObservableProperty]
-    private Product product = new();
+    public override async Task InicializarAsync()
+    {
+        await base.InicializarAsync();
+        if (EsNuevo)
+            ClearAsync();
+        else
+            FindAsync();
+    }
 
-    // Usa la propiedad generada 'Product' en lugar de 'product'
+    public async void FindAsync() => Entidad = await repository!.Products.GetAsync(EntidadId);
+
     public override async void SaveAsync()
     {
         IsBusy = true;
-        if (await Validar(Product))  
+        if (await Validar(Entidad))
         {
-            await repository.Products.InsertAsync(Product);
+            await repository!.Products.InsertAsync(Entidad);
             await notificationService.StatusNotification("Éxito", "El producto se ha guardado correctamente", "success");
-            navigationManager.NavigateTo("/products");
+            navigationManager?.NavigateTo("/products");
         }
         IsBusy = false;
         ClearAsync();
     }
 
-    public override async void UndoAsync() 
-    {
-        navigationManager.NavigateTo("/products");
-    }
-
-    private protected async virtual Task<bool> Validar<T>(T? obj)
-     => await Validador.ValidarObjeto(obj, notificationService);
+    private protected async virtual Task<bool> Validar<T>(T? obj) => await Validador.ValidarObjeto(obj, notificationService);
 
     public override void ClearAsync()
     {
-        Product = new Product(); 
-        StateHasChanged();
+        Entidad = new();
+        StateHasChanged?.Invoke();
     }
 }
