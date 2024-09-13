@@ -1,0 +1,65 @@
+﻿@using BlazorBootstrap
+
+<div class="card rounded-4 shadow">
+
+    <div class="card-header rounded-top-4 text-bg-dark text-center">
+        <h1 class="fw-normal">
+            Creación de productos
+        </h1>
+    </div>
+
+
+    <div class="card-body p-3 p-lg-4 text-black">
+        <p class="fw-normal fs-5 mb-1 pb-2 text-body-secondary">
+            Por favor ingrese los siguientes datos.
+        </p>
+
+        <EditForm Model="ViewModel?.Product">
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Nombre del producto" @bind-Value="@ViewModel.Product!.Title"></InputText>
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <CurrencyInput TValue="decimal" @bind-Value="@ViewModel.Product.Price" Placeholder="Precio" />
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Descripcion" @bind-Value="@ViewModel.Product.Description"></InputText>
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Categoria" @bind-Value="@ViewModel.Product.Category"></InputText>
+                </div>
+            </div>
+            <div class="form-outline mb-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-cart"></i>
+                    </span>
+                    <InputText class="form-control" placeholder="Imagen" @bind-Value="@ViewModel.Product.Image"></InputText>
+                </div>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public ProductViewModel? ViewModel { get; set; }
+}

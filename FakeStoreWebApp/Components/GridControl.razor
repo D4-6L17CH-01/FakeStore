@@ -1,0 +1,73 @@
+﻿@typeparam T
+<table class="table">
+    <thead>
+        <tr>
+            @{
+                foreach (var propiedad in Properties)
+                {
+                    <th scope="col">@propiedad.Name</th>
+                }
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @if (Lista != null)
+        {
+            @foreach (var registro in Lista)
+            {
+                @if (SelectedItem?.Equals(registro) ?? false)
+                {
+                    <tr class="table-active" @onclick="(() => OnSelected(registro))">
+                        @foreach (var propiedad in Properties)
+                        {
+                            <td>@propiedad.GetValue(registro)?.ToString()</td>
+                        }
+                    </tr>
+                }
+                else
+                {
+                    <tr @onclick="(() => OnSelected(registro))">
+                        @foreach (var propiedad in Properties)
+                        {
+                            <td>@propiedad.GetValue(registro)?.ToString()</td>
+                        }
+                    </tr>
+                }
+            }
+        }
+    </tbody>
+</table>
+@code {
+    [Parameter]
+    public T SelectedItem { get; set; }
+
+    [Parameter]
+    public IEnumerable<T> Lista { get; set; }
+
+    [Parameter]
+    public string PropiedadesExcluidas { get; set; }
+
+    [Parameter]
+    public Action<T> OnSelected { get; set; }
+
+    public IEnumerable<PropertyInfo> Properties { get; set; }
+
+    private IEnumerable<System.Reflection.PropertyInfo> GetProperties()
+    {
+        var allProperties = typeof(T).GetProperties();
+
+        // Si se especifican propiedades para incluir, filtrarlas
+        if (PropiedadesExcluidas != null && PropiedadesExcluidas.Any())
+        {
+            return allProperties.Where(p => !PropiedadesExcluidas.Contains(p.Name));
+        }
+
+        // Si no se especifican propiedades, devolver todas
+        return allProperties;
+    }
+
+    protected override void OnParametersSet()
+    {
+        Properties = GetProperties();
+    }
+}

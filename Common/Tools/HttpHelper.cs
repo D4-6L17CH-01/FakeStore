@@ -126,22 +126,26 @@ public class HttpHelper
         }
     }
 
-    public async Task<bool> DeleteAsync(string controller)
+    public async Task<TResult> DeleteAsync<TResult>(string controller)
     {
         ValidateUri(controller);
         using (var client = BaseClient())
         {
-            var response = await client.DeleteAsync($"{controller}");
+            var response = await client.GetAsync(controller);
             if (response.IsSuccessStatusCode)
             {
                 string json = await response.Content.ReadAsStringAsync();
-                bool obj = JsonConvert.DeserializeObject<bool>(json);
+                dynamic obj;
+                if (typeof(TResult).Equals(typeof(string)))
+                    obj = json;
+                else
+                    obj = JsonConvert.DeserializeObject<TResult>(json)!;
                 return obj;
             }
             else
             {
                 await ThrowError(response);
-                return false;
+                return default;
             }
         }
     }

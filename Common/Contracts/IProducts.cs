@@ -6,5 +6,5 @@ public interface IProducts
     Task<Product> GetAsync(int id);
     Task<Product> InsertAsync(Product producto);
     Task<Product> UpdateAsync(int id , Product producto);
-    Task<bool> DeleteAsync(int id);
+    Task<Product> DeleteAsync(int id);
 }

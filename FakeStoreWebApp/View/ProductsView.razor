@@ -1,0 +1,22 @@
+﻿@page "/products"
+
+@inject ProductsViewModel ViewModel
+
+<PageTitle>Productos</PageTitle>
+
+<h5>Productos</h5>
+
+<CommandBar OnRefresh="ViewModel.GetAsync" OnCreate="ViewModel.InsertAsync" OnEdit="ViewModel.UpdateAsync" OnDelete="ViewModel.DeleteAsync"></CommandBar>
+
+<GridControl Lista="ViewModel.Items" SelectedItem="ViewModel.SelectedItem" OnSelected="ViewModel.SelAsync"></GridControl>
+
+@* TODO: Aqui va la grid generica *@
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        ViewModel.StateHasChanged = StateHasChanged;
+        await ViewModel.InicializarAsync();
+        await base.OnInitializedAsync();
+    }
+}

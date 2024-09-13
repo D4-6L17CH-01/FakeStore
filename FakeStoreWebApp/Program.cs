@@ -1,3 +1,5 @@
+using FakeStoreWebApp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,8 +7,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
+builder.Services.AddBlazorBootstrap();
 
 #region Servicios
+builder.Services.AddScoped<ProductsViewModel>();
+builder.Services.AddScoped<ProductViewModel>();
+builder.Services.AddScoped<CartsViewModel>();
+builder.Services.AddScoped<CartViewModel>();
+builder.Services.AddScoped<UsersViewModel>();
+builder.Services.AddScoped<UserViewModel>();
+
+builder.Services.AddScoped<INotificationService, NotificationService>();
+
+builder.Services.AddSingleton<IRepository, RestRepository>(x => new RestRepository(Herramientas.GetUrl()));
 #endregion
 
 builder.Services.AddAuthorizationCore();
