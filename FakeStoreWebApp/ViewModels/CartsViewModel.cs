@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class CartsViewModel : BaseViewModel
+public partial class CartsViewModel : BaseListViewModel<Cart>
 {
     public CartsViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -13,6 +13,15 @@ public partial class CartsViewModel : BaseViewModel
     private readonly INotificationService notificationService;
     private readonly NavigationManager? navigationManager;
 
-    [ObservableProperty]
-    private ICollection<Cart>? carts;
+    //TODO: Realizar la sobre escritora del metodo GetAsync
+    public override void GetAsync() => new NotImplementedException();
+
+    //TODO: Realizar la sobre escritora del metodo InsertAsync
+    public override void InsertAsync() => new NotImplementedException();
+
+    //TODO: Realizar la sobre escritora del metodo UpdateAsync
+    public override void UpdateAsync() => new NotImplementedException();
+
+    //TODO: Realizar la sobre escritora del metodo DeleteAsync
+    public override void DeleteAsync() => new NotImplementedException();
 }

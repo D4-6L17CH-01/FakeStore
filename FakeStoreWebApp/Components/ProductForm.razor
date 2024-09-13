@@ -14,13 +14,13 @@
             Por favor ingrese los siguientes datos.
         </p>
 
-        <EditForm Model="ViewModel?.Entidad">
+        <EditForm Model="ViewModel?.Product">
             <div class="form-outline mb-4">
                 <div class="input-group mb-3">
                     <span class="input-group-text">
                         <i class="bi bi-cart"></i>
                     </span>
-                    <InputText class="form-control" placeholder="Nombre del producto" @bind-Value="@ViewModel.Entidad!.Title"></InputText>
+                    <InputText class="form-control" placeholder="Nombre del producto" @bind-Value="@ViewModel.Product!.Title"></InputText>
                 </div>
             </div>
             <div class="form-outline mb-4">
@@ -28,7 +28,7 @@
                     <span class="input-group-text">
                         <i class="bi bi-cart"></i>
                     </span>
-                    <CurrencyInput TValue="decimal" @bind-Value="@ViewModel.Entidad.Price" Placeholder="Precio" />
+                    <CurrencyInput TValue="decimal" @bind-Value="@ViewModel.Product.Price" Placeholder="Precio" />
                 </div>
             </div>
             <div class="form-outline mb-4">
@@ -36,7 +36,7 @@
                     <span class="input-group-text">
                         <i class="bi bi-cart"></i>
                     </span>
-                    <InputText class="form-control" placeholder="Descripcion" @bind-Value="@ViewModel.Entidad.Description"></InputText>
+                    <InputText class="form-control" placeholder="Descripcion" @bind-Value="@ViewModel.Product.Description"></InputText>
                 </div>
             </div>
             <div class="form-outline mb-4">
@@ -44,7 +44,7 @@
                     <span class="input-group-text">
                         <i class="bi bi-cart"></i>
                     </span>
-                    <InputText class="form-control" placeholder="Categoria" @bind-Value="@ViewModel.Entidad.Category"></InputText>
+                    <InputText class="form-control" placeholder="Categoria" @bind-Value="@ViewModel.Product.Category"></InputText>
                 </div>
             </div>
             <div class="form-outline mb-4">
@@ -52,7 +52,8 @@
                     <span class="input-group-text">
                         <i class="bi bi-cart"></i>
                     </span>
-                    <InputText class="form-control" placeholder="Imagen" @bind-Value="@ViewModel.Entidad.Image"></InputText>
+                    @* TODO: Hacer que la imagen se vea de forma visual a partir de la direccion URL *@
+                    <InputText class="form-control" placeholder="Imagen" @bind-Value="@ViewModel.Product.Image"></InputText>
                 </div>
             </div>
         </EditForm>

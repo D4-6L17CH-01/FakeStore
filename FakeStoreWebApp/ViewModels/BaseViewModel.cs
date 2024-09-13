@@ -1,7 +1,4 @@
-﻿using Common.Contracts;
-using CommunityToolkit.Mvvm.ComponentModel;
-
-namespace FakeStoreWebApp.ViewModels;
+﻿namespace FakeStoreWebApp.ViewModels;
 
 public partial class BaseViewModel: ObservableObject
 {
@@ -10,6 +7,8 @@ public partial class BaseViewModel: ObservableObject
     {
         repository = serviceProvider.GetService<IRepository>()!;
     }
+    
+    public async virtual Task InicializarAsync() { }
 
     [ObservableProperty]
     private int numeroRegistros;
@@ -20,8 +19,4 @@ public partial class BaseViewModel: ObservableObject
     [ObservableProperty]
     private Action? stateHasChanged;
 
-    public async virtual Task InicializarAsync()
-    {
-
-    }
 }

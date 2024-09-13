@@ -1,28 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Common.Rest;
 
-namespace Common.Rest;
-
+//TODO: Implementar los metodos faltantes
 public class RestUser : IUser
 {
     private readonly HttpHelper http;
     public RestUser(string baseUrl, string token)
         => http = new HttpHelper(baseUrl, token);
-    public async Task<User> DeleteAsync(int id)
-        => await http.DeleteAsync<User>($"users/{id}");
 
     public async Task<ICollection<User>> GetAllAsync()
         => await http.GetAsync<ICollection<User>>("users");
 
     public async Task<User> GetAsync(int id)
-        => await http.GetAsync<User>("users/{id}");
+        => throw new NotImplementedException();
 
     public async Task<User> InsertAsync(User usuario)
-        => await http.PostAsync<User, User>($"users", usuario);
+        => throw new NotImplementedException();
 
     public async Task<User> UpdateAsync(int id, User usuario)
-        => await http.PutAsync<User, User>($"users", usuario);
+        => throw new NotImplementedException();
+
+    public async Task<User> DeleteAsync(int id)
+        => await http.DeleteAsync<User>($"users/{id}");
 }

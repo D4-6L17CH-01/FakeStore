@@ -18,8 +18,7 @@ public partial class ProductsViewModel : BaseListViewModel<Product>
         Items = await repository!.Products.GetAllAsync();
         StateHasChanged!();
     }
-    public override async void InsertAsync()
-        => navigationManager?.NavigateTo("/products/nuevo");
+    public override async void InsertAsync() => navigationManager?.NavigateTo("/products/nuevo");
 
     public override async void UpdateAsync()
     {
@@ -31,7 +30,6 @@ public partial class ProductsViewModel : BaseListViewModel<Product>
 
         navigationManager?.NavigateTo($"/products/{SelectedItem?.Id}");
     }
-
 
     public override async void DeleteAsync()
     {

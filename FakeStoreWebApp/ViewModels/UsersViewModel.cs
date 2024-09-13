@@ -1,6 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
-public partial class UsersViewModel : BaseViewModel
+public partial class UsersViewModel : BaseListViewModel<User>
 {
     public UsersViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
     {
@@ -13,6 +13,15 @@ public partial class UsersViewModel : BaseViewModel
     private readonly INotificationService notificationService;
     private readonly NavigationManager? navigationManager;
 
-    [ObservableProperty]
-    private ICollection<User>? users;
+    //TODO: Realizar la sobre escritora del metodo GetAsync
+    public override void GetAsync() => new NotImplementedException();
+
+    //TODO: Realizar la sobre escritora del metodo InsertAsync
+    public override void InsertAsync() => new NotImplementedException();
+
+    //TODO: Realizar la sobre escritora del metodo UpdateAsync
+    public override void UpdateAsync() => new NotImplementedException();
+
+    //TODO: Realizar la sobre escritora del metodo DeleteAsync
+    public override void DeleteAsync() => new NotImplementedException();
 }

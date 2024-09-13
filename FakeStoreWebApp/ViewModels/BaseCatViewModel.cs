@@ -25,7 +25,6 @@ public partial class BaseCatViewModel<T> : BaseViewModel
     }
 
     public virtual async void SaveAsync() { }
-
     public virtual async void UndoAsync() => navigationManager?.NavigateTo($"/{typeof(T).Name}s");
     public virtual async void ClearAsync() { }
 }

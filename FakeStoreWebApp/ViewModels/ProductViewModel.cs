@@ -13,6 +13,9 @@ public partial class ProductViewModel : BaseCatViewModel<Product>
     private readonly INotificationService notificationService;
     private readonly NavigationManager? navigationManager;
 
+    [ObservableProperty]
+    private Product product;
+
     public override async Task InicializarAsync()
     {
         await base.InicializarAsync();
@@ -22,7 +25,13 @@ public partial class ProductViewModel : BaseCatViewModel<Product>
             FindAsync();
     }
 
-    public async void FindAsync() => Entidad = await repository!.Products.GetAsync(EntidadId);
+    public async void FindAsync()
+    {
+        var a = await repository!.Products.GetAsync(EntidadId);
+
+        //TODO: Corregir error al momento de asignar producto al objeto bindeado
+        Product = a;
+    }
 
     public override async void SaveAsync()
     {

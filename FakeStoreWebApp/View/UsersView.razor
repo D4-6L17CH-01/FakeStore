@@ -1,12 +1,16 @@
-﻿@page "/users"
+﻿@page "/localhost/users"
+
+@* TODO: La ruta de acceso a esta pagina debe ser /users *@
 
 @inject UsersViewModel ViewModel
 
 <PageTitle>Usuarios</PageTitle>
 
-<CommandBar></CommandBar>
-
 <h5>Usuarios</h5>
+
+@* TODO: Agregar el componente CommandBar y definir sus respectivas acciones *@
+@* TODO: Agregar el componente GridControl y definir sus respectivos parametros y acciones *@
+
 
 @code {
     protected override async Task OnInitializedAsync()

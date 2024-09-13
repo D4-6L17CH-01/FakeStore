@@ -1,5 +1,6 @@
 ﻿namespace FakeStoreWebApp.ViewModels;
 
+//TODO: Implementar los metodos sin implementar
 public partial class UserViewModel : BaseCatViewModel<User>
 {
     public UserViewModel(IServiceProvider serviceProvider) : base(serviceProvider)
@@ -16,13 +17,7 @@ public partial class UserViewModel : BaseCatViewModel<User>
     [ObservableProperty]
     private User user;
 
-    public override void SaveAsync()
-    {
-        base.SaveAsync();
-    }
+    public override void SaveAsync() => base.SaveAsync();
 
-    public override void UndoAsync()
-    {
-        base.UndoAsync();
-    }
+    public override void UndoAsync() => throw new NotImplementedException();
 }
